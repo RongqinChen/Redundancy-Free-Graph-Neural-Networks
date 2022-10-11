@@ -1,0 +1,20 @@
+{
+    "0": {
+        "embed_dim_list": [32],
+        "tree_level": 3,
+        "transfrom_lower_tree": true,
+        "init_norm": "BatchNorm1d",
+        "init_nonlinear": "ReLU",
+        "branch_norm": "BatchNorm1d",
+        "bracnh_nonlinear": "ReLU",
+        "tree_norm": "BatchNorm1d",
+        "tree_nonlinear": "ReLU",
+        "tree_update": "Tree_Update_Com",
+        "branch_drop_p": 0.0,
+        "tree_drop_p": 0.0,
+        "nest_drop_p": 0.5,
+        "where_assign_lower_tree": "bottom",
+        "graph_readout": "mean",
+        "g_drop_p": 0.5
+    }
+}
