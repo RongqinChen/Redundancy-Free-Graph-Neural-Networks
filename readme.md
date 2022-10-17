@@ -37,6 +37,6 @@ python -m runners.rfgnn_tpf_tud $device $num_repeats
 python -m runners.rfgnn_tpf_qm9 $device $num_repeats $target_idx_begin $target_idx_end
 ```
 
-Note that we performed unit conversions for results to match the units used by [1].
+Note that unit conversions should be performed for results to match the units used by [1].
 
 [1]: Christopher Morris, Martin Ritzert, Matthias Fey, William L Hamilton, Jan Eric Lenssen, Gaurav Rattan, and Martin Grohe. Weisfeiler and leman go neural: Higher-order graph neural networks. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 33, pages 4602–4609, 2019.
